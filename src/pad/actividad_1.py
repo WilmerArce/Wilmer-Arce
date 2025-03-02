@@ -8,7 +8,7 @@ class Ingestiones:
 
     def leer_json(self):
         """Lee un archivo JSON y lo devuelve como un diccionario."""
-        ruta_json = os.path.join(self.ruta_static, "json/datos.json")
+        ruta_json = os.path.join(self.ruta_static, "json/datos_persona.json")
         try:
             with open(ruta_json, "r", encoding="utf-8") as f:
                 return json.load(f)
