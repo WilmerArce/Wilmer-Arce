@@ -1,6 +1,6 @@
 import json
 import os
-import requests  # Nueva librería para manejar APIs
+import requests  # Nueva libreria para manejar APIs
 
 class Ingestiones:
     def __init__(self):
