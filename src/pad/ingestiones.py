@@ -4,7 +4,7 @@ import json
 
 class Ingestiones():
     def __init__(self):
-        self.ruta_static="D:/UIDigital/PAD_2025101/repositorios/pad20251/src/pad/static/"
+        self.ruta_static="src/pad/static/"
         
     def leer_json(self):
         # r read w write
