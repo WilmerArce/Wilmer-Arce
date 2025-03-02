@@ -4,7 +4,7 @@ import requests  # Nueva libreria para manejar APIs
 
 class Ingestiones:
     def __init__(self):
-        self.ruta_static = "src/pad/static/"
+        self.ruta_static = "Wilmer-Arce/src/pad/static/"
 
     def leer_json(self):
         """Lee un archivo JSON y lo devuelve como un diccionario."""
